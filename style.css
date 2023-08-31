@@ -50,6 +50,7 @@
 
 .card-container {
   background: white;
+  border: 1px solid var(--gray-100, #cbc4c4);
   border-radius: 4px;
   overflow: hidden;
   flex-direction: column;
@@ -152,20 +153,11 @@ button {
 }
 
 .button-p {
-  background-color: var(--blue-400, #4b5da5);
-  color: white;
-}
-
-.button-p:hover {
-  background-color: #606ea7;
-}
-
-.button-p-2 {
   background-color: var(--blue-800, #0d1d37);
   color: white;
 }
 
-.button-p-2:hover {
+.button-p:hover {
   background-color: #112546;
 }
 
