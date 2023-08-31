@@ -1,87 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css"> 
-  <style>
-    * {
-      padding: 0;
-      margin: 0;
-      font-family: 'Montserrat';
-      box-sizing: border-box;
-    }
-  </style>
-</head>
-<body>
-  <main>
-    <nav class="menu">
-      <div class="content">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        font-family: "Montserrat";
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <nav class="menu">
+        <div class="content">
           <h1>Lumiere</h1>
-          <div style="display: flex; gap: 2em; align-items: center;">
-              <div class="div-link">
-                <a href="" class="link">Advogados</a>
-                <div></div>
-              </div>
-    
+          <div style="display: flex; gap: 2em; align-items: center">
+            <div class="div-link">
+              <a href="" class="link">Advogados</a>
+              <div></div>
+            </div>
+
             <button class="button-ghost">Login</button>
             <button class="button-p">Cadastro</button>
           </div>
-      </div>
-
-    </nav>
-    <section class="hero">
-      <div class="hero-text">
-        <h1>Lorem Ipsum</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil reprehenderit, consectetur magnam assumenda laudantium consequuntur. Sunt est maiores ipsa sed placeat, soluta id omnis magnam explicabo molestiae, sit iusto velit!</p>
-      <button class="button-p">Encontrar Advogados ></button>
-      </div>
-      <img src="hero.png" alt="">
-    </section>
-    <section class="lawyers">
-      <h1>Lorem Ipsum</h1>
-      <div class="cards">
-          <div class=" card-container">
-              <img style="align-self: stretch; height: 178px; object-fit: cover;" src="card-1.png" />
-              <div style="align-self: stretch;  padding-bottom: 32px; padding-left: 32px; padding-right: 32px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: flex">
-                <div style="align-self: stretch; height: 60px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: flex">
-                  <div style="align-self: stretch; color: #4A4A4A; font-size: 28px; font-family: Montserrat; font-weight: 700; line-height: 28.22px; word-wrap: break-word">Pedro Gustavo</div>
-                  <div style="align-self: stretch; opacity: 0.50; color: #4A4A4A; font-size: 16px; font-family: Montserrat; font-weight: 400; line-height: 16.13px; word-wrap: break-word">Um advogado renomado do Rio</div>
+        </div>
+      </nav>
+      <section class="hero">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 style="font-size: 56px">FACILITE SEU CONTATO COM ADVOGADOS!</h1>
+            <p>
+              Crie uma conta na advocacia lumiere e tenha acesso a diversos
+              mecanismos para auxiliar no seu caso!
+            </p>
+            <button class="button-p">Encontrar Advogados ></button>
+          </div>
+          <img src="hero.png" alt="" />
+        </div>
+      </section>
+      <section class="lawyers">
+        <h1>Veja nossos principais advogados!</h1>
+        <div class="cards">
+          <div class="card-container">
+            <img class="card-foto" src="card-1.png" />
+            <div class="card-content">
+              <div class="card-content-header">
+                <div class="card-content-header-name">Pedro Sapo</div>
+                <div class="card-content-header-bio">
+                  Um advogado renomado do Rio
                 </div>
-                <div style="align-self: stretch; height: 108px; opacity: 0.80; color: #4A4A4A; font-size: 18px; font-family: Montserrat; font-weight: 400; line-height: 18.14px; word-wrap: break-word">Adoro me concentrar em casos complicados! estou aqui para te ajudar e dar fim ao seu caso.</div>
+              </div>
+              <div class="card-content-description">
+                Adoro me concentrar em casos complicados! estou aqui para te
+                ajudar e dar fim ao seu caso.
+              </div>
 
-                <button class="button-p">Encontrar Advogados ></button>
+              <button class="button-p">Encontrar Advogados ></button>
+            </div>
+          </div>
+          <div class="card-container">
+            <img class="card-foto" src="card-2.png" />
+            <div class="card-content">
+              <div class="card-content-header">
+                <div class="card-content-header-name">Akali Tiffany</div>
+                <div class="card-content-header-bio">
+                  Advogar é minha profissão!
+                </div>
+              </div>
+              <div class="card-content-description">
+                Estou a 10 anos no mercado de Advogados e me especializei
+                principalmente em direitos trabalhistas e socias.
+              </div>
+
+              <button class="button-p">Encontrar Advogados ></button>
+            </div>
+          </div>
+          <div class="card-container">
+            <img class="card-foto" src="card-3.png" />
+            <div class="card-content">
+              <div class="card-content-header">
+                <div class="card-content-header-name">Sandro Milton</div>
+                <div class="card-content-header-bio">23 anos de mercado!</div>
+              </div>
+              <div class="card-content-description">
+                Durante toda minha carreira consegui lidar muito bem com meus
+                casos e sempre estou disposto a entender o lado do meu cliente.
+              </div>
+              <button class="button-p">Encontrar Advogados ></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="avaliation">
+        <h1>O melhor ambiente para encontrar um advogado</h1>
+        <div class="avaliatons">
+          <div class="card-container avaliation-right avaliation-index-1">
+            <div class="card-content">
+              <div class="card-content-header-star">
+                <img src="star.svg" alt="" /><img src="star.svg" alt="" /><img
+                  src="star.svg"
+                  alt=""
+                /><img src="star.svg" alt="" /><img src="star.svg" alt="" />
+              </div>
+              <div class="card-content-header-name">Carla Gregoria</div>
+              <div class="card-content-description">
+                Odiva ter que ir procurar entre amigos um advogado e aqui eu
+                encontrei vários com milhares de informações que me ajudam a
+                escolher a opção mais segura!
               </div>
             </div>
-            <div class=" card-container">
-                <img style="align-self: stretch; height: 178px; object-fit: cover;" src="card-2.png" />
-                <div style="align-self: stretch;  padding-bottom: 32px; padding-left: 32px; padding-right: 32px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: flex">
-                  <div style="align-self: stretch; height: 60px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: flex">
-                    <div style="align-self: stretch; color: #4A4A4A; font-size: 28px; font-family: Montserrat; font-weight: 700; line-height: 28.22px; word-wrap: break-word">Pedro Gustavo</div>
-                    <div style="align-self: stretch; opacity: 0.50; color: #4A4A4A; font-size: 16px; font-family: Montserrat; font-weight: 400; line-height: 16.13px; word-wrap: break-word">Um advogado renomado do Rio</div>
-                  </div>
-                  <div style="align-self: stretch; height: 108px; opacity: 0.80; color: #4A4A4A; font-size: 18px; font-family: Montserrat; font-weight: 400; line-height: 18.14px; word-wrap: break-word">Adoro me concentrar em casos complicados! estou aqui para te ajudar e dar fim ao seu caso.</div>
-  
-                  <button class="button-p">Encontrar Advogados ></button>
-                </div>
+            <img class="card-foto-2" src="ava-1.png" />
+          </div>
+          <div class="card-container avaliation-index-2">
+            <div class="card-content">
+              <div class="card-content-header-star">
+                <img src="star.svg" alt="" /><img src="star.svg" alt="" /><img
+                  src="star.svg"
+                  alt=""
+                /><img src="star.svg" alt="" /><img src="star.svg" alt="" />
               </div>
-              <div class=" card-container">
-                  <img style="align-self: stretch; height: 178px; object-fit: cover;" src="card-3.png" />
-                  <div style="align-self: stretch;  padding-bottom: 32px; padding-left: 32px; padding-right: 32px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: flex">
-                    <div style="align-self: stretch; height: 60px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: flex">
-                      <div style="align-self: stretch; color: #4A4A4A; font-size: 28px; font-family: Montserrat; font-weight: 700; line-height: 28.22px; word-wrap: break-word">Pedro Gustavo</div>
-                      <div style="align-self: stretch; opacity: 0.50; color: #4A4A4A; font-size: 16px; font-family: Montserrat; font-weight: 400; line-height: 16.13px; word-wrap: break-word">Um advogado renomado do Rio</div>
-                    </div>
-                    <div style="align-self: stretch; height: 108px; opacity: 0.80; color: #4A4A4A; font-size: 18px; font-family: Montserrat; font-weight: 400; line-height: 18.14px; word-wrap: break-word">Adoro me concentrar em casos complicados! estou aqui para te ajudar e dar fim ao seu caso.</div>
-    
-                    <button class="button-p">Encontrar Advogados ></button>
-                  </div>
-                </div>
-      </div>
-    </section>
-    <section></section>
-  </main>
-</body>
+              <div class="card-content-header-name">Maria Antonia</div>
+              <div class="card-content-description">
+                Fácil de usar e com muitos advogados ao seu dipor! muito bom!
+              </div>
+            </div>
+            <img class="card-foto-2" src="ava-2.png" />
+          </div>
+          <div class="card-container avaliation-index-1 avaliation-left">
+            <div class="card-content">
+              <div class="card-content-header-star">
+                <img src="star.svg" alt="" /><img src="star.svg" alt="" /><img
+                  src="star.svg"
+                  alt=""
+                /><img src="star.svg" alt="" /><img src="star.svg" alt="" />
+              </div>
+              <div class="card-content-header-name">João Andrade</div>
+              <div class="card-content-description">
+                A plataforma me ajudou a encontrar um advogado facilmente e
+                assim resolvi meu caso tranquilamente!
+              </div>
+            </div>
+            <img class="card-foto-2" src="ava-3.png" />
+          </div>
+        </div>
+      </section>
+      <section class="callback">
+        <h1>
+          <span class="h1-blue" style="font-size: 56px">Encontre</span><br />
+          <span class="h1-yellow" style="font-size: 56px">Advogados</span>
+        </h1>
+        <button class="button-p-2">Criar contar ></button>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>©</p>
+    </footer>
+  </body>
 </html>
